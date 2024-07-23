@@ -1,6 +1,8 @@
 # Black Hole Raytracer
 > [!WARNING]  
-> This is a **legacy project** which I wrote in 2015, before the first gravitational waves were detected! The coding standards are not that great, and it was also written just to get something that works and uses my own approach, rather than reading the [Interstellar papers](https://arxiv.org/abs/1502.03808) and copying their approach. It is stupidly slow and unoptimized as well, I think it still takes 10 minutes per frame even on 2024 hardware.
+> This is a **legacy project** which I wrote in 2015, before the first gravitational waves were detected! The coding standards are not that great. I wrote it to try to do something that was my own rather than following the [Interstellar papers](https://arxiv.org/abs/1502.03808). It is stupidly slow and unoptimized, and doesn't exploit any of the symmetries of the problem, and uses a bad integration method, and takes 10 minutes per frame even on 2024 hardware.
+
+![Animated gif of a rotating black hole](blackhole-600.gif)
 
 ## 2015 compilation instructions
 
