@@ -6,7 +6,7 @@
 
 ## 2015 compilation instructions
 
-> To run it on linux, make sure cimg-dev and libx11-dev are installed ("sudo apt-get install cimg-dev libx11-dev") then type "make" and "./program".
+> To run it on linux, make sure cimg-dev and libx11-dev are installed ("sudo apt-get install cimg-dev libx11-dev"), make sure the obj directory exists, then type "make" and "./program".
 
 ## My Approach
 The [Interstellar papers](https://arxiv.org/abs/1502.03808) work with spherical symmetry and exploit Killing vectors and conserved quantities to have some elegant integration code.
