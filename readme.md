@@ -10,7 +10,7 @@
 
 ## My Approach
 The [Interstellar papers](https://arxiv.org/abs/1502.03808) work with spherical symmetry and exploit Killing vectors and conserved quantities to have some elegant integration code.
-I had a bunch of rendering code laying around using xyz coordinates, and I didn't want to convert between $(x,y,z)$ and $(r,\theta,\varphi)$ coordinates all the time! Fortunately, the Schwarzschild metric is actually quite nice in xyz coordinates. Here are the first components of $g^{\mu\nu}$ in the (- + + +) convention, where $r=\sqrt{x^2+y^2+z^2}$ and I omitted the z column because you can carry on the pattern yourself. Don't take my word for it, this is derived using computer algebra in the Mathematica notebook [math.nb]() which you can view in pdf format [math.pdf]().
+I had a bunch of rendering code laying around using xyz coordinates, and I didn't want to convert between $(x,y,z)$ and $(r,\theta,\varphi)$ coordinates all the time! Fortunately, the Schwarzschild metric is actually quite nice in xyz coordinates. Here are the first components of $g^{\mu\nu}$ in the (- + + +) convention, where $r=\sqrt{x^2+y^2+z^2}$ and I omitted the z column because you can carry on the pattern yourself. Don't take my word for it, this is derived using computer algebra in the Mathematica notebook [blackhole-math.nb](blackhole-math.nb) which you can view in pdf format [blackhole-math.pdf](blackhole-math.pdf).
 
 $$g^{\mu\nu}=\begin{bmatrix}
  \frac{1}{-1+1/r} & 0 & 0 \\
